@@ -3,7 +3,7 @@
 Sample-Angular tem como objetivo mostrar com poucas linhas de código como implementar conceitos principais do Angular. 
 
 No pacote versão 1 temos um exemplo de como usar um service no controller. Com isso ganhamos uma aplicação mais modularizada,
-com suas responsabilidades divididas por função. Com a simplicidade ganhamos um código legível e facil para implementação de de testes automatizados (Jasmine, Cucumber)
+com suas responsabilidades divididas por função. Com a simplicidade ganhamos um código legível e facil para implementação de testes automatizados (Jasmine, Cucumber)
 
 
 
