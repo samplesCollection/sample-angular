@@ -12,5 +12,22 @@
     "restangular":"*",
     "angular": "1.5.5",
     "angular-google-chart": "^0.1.0"
+  },
+  "devDependencies":{
+    "gulp": "*",
+    "angular-mocks": "^1.5.0",
+    "jasmine-core": "^2.3.4",
+    "mocha": "*",
+    "chai": "*",
+    "karma": "^0.13.14",
+    "karma-jasmine": "^0.3.6",
+    "karma-coverage": "^0.5.3",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^0.1.10",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-spec-reporter": "0.0.24",
+    "phantomjs-prebuilt": "^2.1.4"
   }
+
 }
