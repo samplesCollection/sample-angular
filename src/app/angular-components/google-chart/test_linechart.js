@@ -1,19 +1,20 @@
 describe('linechartCtrl', function() {
 
-  beforeEach(module('googlechartapp'));
+  beforeEach(angular.mock.module('googlechartapp'));
 
   var linechartCtrl, scope;
 
-  /*beforeEach(inject(function($rootScope, $controller) {
+  beforeEach(inject(function($rootScope, $controller) {
+    console.log($rootScope);
     scope = $rootScope.$new();
     linechartCtrl = $controller('linechartCtrl',{
       $scope:scope
     });
   }));
-  */
-  beforeEach(inject(function(_$controller_) {
-    $controller = _$controller_
-  }));
+
+  //beforeEach(inject(function(_$controller_) {
+  //  $controller = _$controller_
+  //}));
 
 
   it("should return hello", function() {
