@@ -6,5 +6,9 @@ angular.module('secondmodule', [])
     $scope.myservice = myService;
   }])
   .factory('myService', ['$http', function($http) {
-    return $http.jsonp("https://api.blinktrade.com/api/v1/BRL/ticker?crypto_currency=BTC&callback=JSON_CALLBACK").then(function(response) {});
+    return new Promise(function(error,sucess){
+      $http.jsonp("https://api.blinktrade.com/api/v1/BRL/ticker?crypto_currency=BTC&callback=JSON_CALLBACK").then(function(response) {
+        
+      });
+    });
   }]);
