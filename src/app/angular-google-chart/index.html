@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="googlechartapp">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/master.css" media="screen" title="no title" charset="utf-8">
+  <script src="../../../../node_modules/angular/angular.min.js" charset="utf-8"></script>
+  <script src="../../../../node_modules/angular-google-chart/ng-google-chart.js"></script>
+  <script src="module.js" charset="utf-8"></script>
+  <script src="chart.js" charset="utf-8"></script>
+  <script src="bussiness.js" charset="utf-8"></script>
+  <script src="linechart.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <div class="" ng-controller="linechartCtrl">
+
+    <div class="chart"></div>
+    <div>{{hello}}</div>
+    <div>{{helloWorld}}</div>
+
+    <div cg-busy="loadingPromise" google-chart chart="chart"></div>
+  </div>
+</body>
+
+</html>
