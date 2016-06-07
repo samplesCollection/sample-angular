@@ -7,10 +7,4 @@ describe('firstController', function() {
   beforeEach(inject(function(_firsController_) {
     $firsController = _firsController_;
   }));
-
-  
-
-
-
-
 });
