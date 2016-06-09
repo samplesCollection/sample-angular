@@ -20,9 +20,15 @@ value.then(function(jsonp){
 
 app.factory('bussiness', ['$http',bussiness]);
 
-var firstController = function($scope, bussiness){
+var firstController = function($http, $scope, bussiness){
   $scope.hello = 'hello';
   $scope.helloWorld = bussiness;
+
+
+  $http.get("http://api.promasters.net.br/cotacao/v1/valores").then(function(response) {
+     $scope.promasters = response.data;
+  });
+
 };
 
-app.controller('firstController',['$scope','bussiness',firstController] );
+app.controller('firstController',['$http','$scope','bussiness',firstController] );
