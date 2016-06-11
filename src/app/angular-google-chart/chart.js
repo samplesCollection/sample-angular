@@ -4,8 +4,8 @@ var chartservice = function(){
                 "options": {
                     "title": "Lines to horizon",
                     "pointSize": 7,
-                    "width" : 900,
-                    "height":500,
+                    "width" : 500,
+                    "height":300,
                     "chartArea": {left:80,top:80,width:"70%",height:"70%"},
                     "vAxis": {
                         "title": "Vertical Data",
