@@ -4,18 +4,21 @@
 <head>
   <meta charset="utf-8">
   <title>Angular Basic</title>
+  <link rel="stylesheet" href="css/master.css" media="screen" title="no title" charset="utf-8">
 
 </head>
 
 <body ng-app="app">
 
-  <div class="" ng-controller="firstController">
-    <p>Exemplo de uma string sendo inserida no controller hardcoded : <strong>{{hello}}</strong></p>
-    <p>Exemplo de uma string sendo inserida no controller através de um service : <strong>{{helloWorld}}</strong></p>
+
+    <ng-include src="'sections/view.html'"></ng-include>
+
+  <div class="" ng-controller="animateController">
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js" charset="utf-8"></script>
-  <script src="animateController.js" charset="utf-8"></script>
+  <script src="../../node_modules/angular-animate/angular-animate.min.js" charset="utf-8"></script>
+  <script src="controllers/animateController.js" charset="utf-8"></script>
 </body>
 
 </html>
