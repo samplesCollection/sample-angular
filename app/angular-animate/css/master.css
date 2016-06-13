@@ -1,0 +1,24 @@
+.box-pannel {
+  background-color: #FFFF21;
+  width: 100px;
+  height: 100px;
+  opacity: 0.8;
+}
+
+.box-opacity.ng-enter{
+  opacity: 0;
+}
+
+.box-opacity.ng-enter-active{
+  opacity: 0;
+}
+
+.box-opacity.ng-leave{
+  opacity: 0.2;
+  background-color: #FFFF22;
+}
+
+.box-opacity.ng-leave-active{
+  opacity: 0.2;
+  background-color: #FFFF22;
+}
